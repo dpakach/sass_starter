@@ -15,7 +15,8 @@ This project contains the starter files for building website design with sass
   ```
 * change directory into the project folder and install and dependency
   ```sh
-  cd sass_starter && npm install
+  cd sass_starter
+  npm install
   ```
 
 * After installing the dependencies start the development process
