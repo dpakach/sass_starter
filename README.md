@@ -13,9 +13,13 @@ This project contains the starter files for building website design with sass
   ```sh
   git clone https://github.com/dpakach/sass_starter.git 
   ```
-* change directory into the project folder and install and dependency
+* Change directory into the project folder 
   ```sh
   cd sass_starter
+  ```
+
+* Install the dependencies
+  ```sh
   npm install
   ```
 
