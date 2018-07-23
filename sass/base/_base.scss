@@ -14,3 +14,32 @@ body {
   box-sizing: border-box;
   background-color: $color-grey-light-1;
 }
+
+// STARGING CONTENT STYLES
+// change if necessary
+
+.starter-text-box {
+  background-image: linear-gradient(
+    to right bottom,
+    $color-orange-light,
+    $color-orange-dark
+  );
+  width: 60vh;
+  text-align: center;
+  padding: 4rem 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewX(5deg) skewY(5deg);
+  border-radius: 5px;
+  color: $color-grey-light-1;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  box-shadow: 1rem 0 2rem .5rem rgba($color-black, .2);
+
+  h1 {
+    transform: skewX(-9deg) skewY(-9deg);
+    text-shadow: .1rem .4rem .5rem rgba($color-black, .2);
+  }
+}
